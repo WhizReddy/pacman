@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('pacman-background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center; 
+    position: relative;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+canvas {
+    border: 2px rgba(1, 17, 138, 0.748) solid;
+    background-color: rgba(0, 0, 0, 0.524); 
+    z-index: 1;
+    margin-top: 200px;
+}
+
+
+
